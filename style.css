@@ -1,0 +1,50 @@
+html, body 
+{
+    height: 100%;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h1
+{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    transition: color 0.75s ease-in-out;
+}
+#clock
+{
+    font-size: 40px;
+    color:aliceblue;
+    text-align: center;
+}
+p
+{
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0.5em;
+}
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+    transform: color 0.3s ease;
+}
+a:hover
+{
+    color: #1e90ff;
+}
+footer
+{
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+  
